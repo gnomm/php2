@@ -1,0 +1,17 @@
+{
+  "name": "gnom/php2-maxim-sergeev-5",
+  "authors": [
+    {
+      "name": "Maxim Sergeev",
+      "email": "support@max-sergeev.ru"
+    }
+  ],
+  "require": {
+    "twig/twig": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  }
+}

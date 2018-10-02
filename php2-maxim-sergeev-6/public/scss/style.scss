@@ -1,0 +1,31 @@
+@import "reset.scss";
+@import "fonts";
+
+html,
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  min-height: 100%;
+  width: 1600px;
+  margin: 0 auto;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+}
+
+@import "header";
+@import "index";
+@import "checkout";
+@import "product";
+@import "single_page";
+@import "shopping_cart";
+@import "reg";
+@import "cart";
+@import "reviews";
+@import "footer";
+@import "media_640px/media_640px";
+@import "pageNotFound";

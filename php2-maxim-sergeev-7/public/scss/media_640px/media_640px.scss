@@ -1,0 +1,17 @@
+/************************************************************************************************/
+@media screen and (max-width: 640px) {
+
+  .container {
+    width: 640px;
+    margin: 0 auto;
+  }
+  @import "header_640px";
+  @import "index_640px";
+  @import "checkout_640px";
+  @import "product_640px";
+  @import "single_page_640px";
+  @import "shopping_cart_640px";
+  @import "last_slider";
+  @import "footer_640px";
+}
+

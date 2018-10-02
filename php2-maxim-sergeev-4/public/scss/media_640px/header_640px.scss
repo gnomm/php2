@@ -1,0 +1,139 @@
+/*****************************************640px_header*****************************************/
+
+.header {
+  //width: 640px;
+  min-height: 80px;
+}
+
+.header_1 {
+  padding: 0;
+  height: 0;
+}
+
+.brand {
+  height: 50px;
+  width: 150px;
+  //border: 1px solid #000;
+  img {
+    width: 44px;
+    height: 38px;
+    margin: 6px 0 0 1px;
+  }
+  h2 {
+    display: none;
+  }
+  //&:hover {
+  //  background-color: #222222;
+  //  width: 75px;
+  //  height: 74px;
+  //}
+}
+
+.header_1_browse {
+  display: none;
+}
+
+.header_1_search {
+  visibility: hidden;
+}
+
+.header_1_search_button {
+  visibility: visible;
+  margin: -5px 0px 0px -370px;
+  border: none;
+  height: 50px;
+  width: 50px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+.header_1_search:hover {
+  background-color: #00b3ff;
+}
+
+.header_1_buy {
+  width: 50px;
+  height: 50px;
+  margin: 0px 2px 0 -362px;
+  border: 1px solid #000;
+  padding: 8px 0px 0px 6px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  img {
+    width: 32px;
+    height: 29px;
+  }
+}
+
+.header_1_account {
+  display: none;
+}
+
+.header_1_account_mob {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  margin: 0px 0px 0 -3px;
+  padding: 9px 0px 0px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  visibility: visible;
+  img {
+    width: 29px;
+    height: 29px;
+  }
+}
+
+.header_2 label {
+  border: 1px solid #000;
+  margin: -13px 0 0 140px;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.header_2_menu {
+  display: none;
+}
+
+.menu_mob {
+  //visibility: hidden;
+  margin: 0 0 0 112px;
+  height: auto;
+  width: 110px;
+
+  //flex-direction: column;
+  position: absolute;
+
+}
+
+.menu_mob li {
+  height: 30px;
+  text-align: center;
+  background-color: #ccc;
+  margin-top: 2px;
+}
+
+.menu_mob a {
+  width: 100%;
+  line-height: 30px;
+  color: #898989;
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header_3 {
+  display: none;
+}
+
+
+
+

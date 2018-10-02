@@ -1,0 +1,141 @@
+/**************************************footer*************************************/
+.footer {
+  min-height: 537px;
+  width: 1600px;
+  margin: 0 auto 0;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+}
+
+.footer_1 {
+  padding: 109px 273px 0 228px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: springgreen;
+}
+
+.footer_1_block_text {
+  width: 427px;
+  min-height: 180px;
+  margin: 29px 0 0 0;
+
+}
+
+.footer_1_block_text p {
+  color: #898989;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.footer_1_brand {
+  float: left;
+}
+
+.footer_1_navi {
+  padding: 14px 0 0 719px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.footer_1_navi h2 {
+  color: #f16d7f;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.footer_1_navi ul {
+  margin: 26px 0 0 0;
+}
+
+.footer_1_navi li a {
+  color: #898989;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 42px;
+  text-decoration: none;
+}
+
+.footer_1_company {
+  float: left;
+}
+
+.footer_1_information {
+  float: left;
+  margin: 0 79px 0 129px;
+}
+
+.footer_1_navi a:hover {
+  color: #ef5b70;
+  outline: none;
+}
+
+.footer_2 {
+  background-color: #e6e6e6;
+  display: flex;
+  padding: 24px 231px 23px 228px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  //justify-content: space-between;
+  margin-top: 97px;
+}
+
+.footer_2 p {
+  margin: 9px 690px 0 0;
+  color: #7a7a7a;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-linkedin,
+.fa-pinterest-p,
+.fa-google-plus {
+  color: #b2b2b2;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #ffffff;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover,
+.fa-pinterest-p:hover,
+.fa-google-plus:hover {
+  background-color: #f16d7f;
+  color: #f7f7f8;
+  outline: none;
+}
+
+.clr:after {
+  content: "";
+  height: 200px;
+  display: block;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+summary >span {
+  margin-left: -1.1em;
+  background-color: #fff;
+}

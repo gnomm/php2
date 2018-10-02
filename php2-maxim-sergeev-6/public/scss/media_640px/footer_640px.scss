@@ -1,0 +1,60 @@
+/***************************************640px_footer***************************************/
+.footer {
+  width: 640px;
+  min-height: 100px;
+}
+
+.footer_1 {
+  padding: 30px 0 0 33px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &_brand {
+    h2 {
+      display: block;
+    }
+    .brand_h2 {
+      color:  #f16d7f;
+      font-weight: 900;
+    }
+  }
+  &_block_text {
+    width: 200px;
+    margin: 0;
+    p {
+      font-size: 10px;
+      line-height: 18px;
+      margin-top: 5px;
+    }
+  }
+  &_navi {
+    padding: 15px 0 0 280px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    h2 {
+      font-size: 12px;
+    }
+    ul {
+      margin: 5px 0 0 0;
+    }
+    li a {
+      font-size: 12px;
+      line-height: 35px;
+    }
+  }
+  &_information {
+    margin: 0 25px 0 25px;
+  }
+}
+
+.footer_2 {
+  padding: 23px 0px 23px 33px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 40px;
+  p {
+    margin: 11px 125px 0 0;
+  }
+}

@@ -1,0 +1,317 @@
+/***********************************product***********************************/
+.product_menu {
+  color: #ef5b70;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  //padding: 8px 11px 0 11px;
+  //-webkit-box-sizing: border-box;
+  //-moz-box-sizing: border-box;
+  //box-sizing: border-box;
+  margin-bottom: 18px;
+  margin-top: 60px;
+  margin-left: 265px;
+  float: left;
+  &_border {
+    width: 243px;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 5px solid #ef5b70;
+    height: 37px;
+    outline: none;
+    padding: 6px 11px 0 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+}
+
+.product_menu ul {
+  padding: 0 0 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.product_menu > li {
+  text-transform: uppercase;
+}
+
+.product_menu a {
+  text-decoration: none;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  text-align: left;
+}
+
+.product_menu a:hover {
+  color: #f16d7f;
+  outline: none;
+}
+
+.product_block_center {
+  padding: 71px 232px 0 523px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.product_options {
+  display: flex;
+}
+
+.product_options h2 {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.product_trending a {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.product_trending ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 225px;
+}
+
+.product_trending li:after {
+  content: "|";
+  color: #dfdfdf;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.product_trending li:last-child:after {
+  content: "";
+  margin-right: 0;
+}
+
+.product_size {
+  padding: 0 58px 0 75px;
+}
+
+.product_price {
+
+}
+
+.product_size_form {
+  display: grid;
+  //grid-template-columns: 50px 50px 50px 50px;
+  grid-template-columns: 67px 67px 67px 67px;
+  grid-template-rows: 15px 15px 15px;
+  grid-gap: 13px 23px;
+}
+
+.product_size_form label {
+  text-transform: uppercase;
+  color: #6f6e6e;
+  font-size: 14px;
+  font-weight: 400;
+  vertical-align: 1px;
+}
+
+.product_sort {
+  background-color: #f3f3f3;
+  max-width: 846px;
+  min-height: 50px;
+  margin-bottom: 48px;
+  padding: 11px 0 0 9px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &_form_sort_by {
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 123px;
+    height: 30px;
+    outline: none;
+    padding: 0 12px 0 12px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  &_form_show {
+    width: 36px;
+    height: 30px;
+    outline: none;
+    padding: 0 12px 0 12px;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  &_form label,
+  select {
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-right: 10px;
+  }
+}
+
+.product_box {
+  display: grid;
+  grid-template-columns: 263px 263px 263px;
+  grid-template-rows: 364px 364px 364px;
+  grid-gap: 38px 30px;
+}
+
+.products {
+  opacity: 0.6;
+}
+
+.products a {
+  text-decoration: none;
+}
+
+.products h3 {
+  color: #6f6e6e;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 19px 0 17px 15px;
+}
+
+.products p {
+  color: #f16d7f;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
+.products_block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products_buy {
+  width: 85px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 19px 15px 17px 0;
+}
+.products_buy:hover {
+  color: #ffffff;
+  background-color: #f16d7f;
+  outline: none;
+}
+
+.products_buy:active {
+  position: relative;
+  top: 2px;
+}
+
+.products:hover {
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16);
+  opacity: 1;
+  outline: none;
+}
+
+.product_nav {
+  padding: 43px 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 110px;
+  .product_pagination {
+    width: 261px;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 11px 15px 0 15px;
+    a {
+      color: #c4c4c4;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      text-decoration: none;
+      &:hover {
+        color: #ef5b70;
+      }
+    }
+  }
+}
+
+.product_pagination_all a {
+  width: 150px;
+  height: 44px;
+  display: block;
+  text-decoration: none;
+  color: #ef5b70;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 48px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #ef5b70;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-left: 400px;
+}
+
+.product_pagination_all a:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  outline: none;
+}
+
+.product_slider {
+  background-color: #222224;
+  min-height: 341px;
+  padding: 89px 256px 0 256px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 309px 309px 309px;
+  grid-template-rows: 138px;
+  grid-gap: 0 82px;
+}
+
+.product_slider img {
+  width: 48px;
+  height: 40px;
+  margin: 0 0 0 134px;
+}
+
+.product_slider h4 {
+  color: #fbfbfb;
+  font-size: 19.96px;
+  font-weight: 700;
+  text-align: center;
+  transform: scaleX(1.0017);
+  margin: 32px 0 17px 0;
+}
+
+.product_slider p {
+  color: #fbfbfb;
+  font-size: 13.97px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  transform: scaleX(1.0017);
+}

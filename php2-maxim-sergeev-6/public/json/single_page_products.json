@@ -1,0 +1,30 @@
+[
+  {
+    "image": "product_10.jpg",
+    "altt": "product_10",
+    "name": "blaze leggings",
+    "price": 543,
+    "hreff": "single_page.html"
+  },
+  {
+    "image": "product_14.jpg",
+    "altt": "product_14",
+    "name": "alexa sweater",
+    "price": 510,
+    "hreff": "single_page.html"
+  },
+  {
+    "image": "product_12.jpg",
+    "altt": "product_12",
+    "name": "agnes top",
+    "price": 250,
+    "hreff": "single_page.html"
+  },
+  {
+    "image": "product_13.jpg",
+    "altt": "product_13",
+    "name": "sylva sweater",
+    "price": 150,
+    "hreff": "single_page.html"
+  }
+]

@@ -1,0 +1,94 @@
+/*****************************************640px_last_slider*****************************************/
+.last_slider {
+  width: 640px;
+  height: 350px;
+  background-size: cover;
+  //flex-direction: column;
+  &_otziv {
+    padding: 0;
+    margin: 70px auto 0;
+    display: block;
+    text-align: center;
+  }
+  &_text {
+    width: 460px;
+    &_name, &__country {
+      text-align: center;
+    }
+  }
+  &_text_info {
+    text-align: center;
+  }
+  &_switch {
+    margin: 15px auto;
+  }
+  &_subscribe {
+    display: none;
+
+  }
+  &_shape {
+    display: none;
+  }
+}
+
+.last_slider_mob {
+  display: block;
+  display: flex;
+  border: 1px solid #ececec;
+  padding: 30px 30px 20px 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  &_brand {
+    width: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      height: 100px;
+      width: 110px;
+      margin: 0 0 10px 10px;
+    }
+  }
+  & .last_slider_shape {
+    display: block;
+    height: inherit;
+  }
+}
+
+
+.last_slider_subscribe_mob {
+  padding: 10px 0 0 33px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  h2 {
+    color: rgba(34, 34, 36, 0.67);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: center;
+  }
+  h3 {
+    color: rgba(34, 34, 36, 0.67);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+.last_slider_input {
+  margin-top: 15px;
+  input {
+    width: 215px;
+    padding: 0 43px 0 18px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  &_button {
+    left: 187px;
+    width: 75px;
+  }
+}

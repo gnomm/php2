@@ -1,0 +1,248 @@
+{
+  "menu": [
+    {
+      "class": "header__navigation_home",
+      "content": "home",
+      "id": "header__navigation_id",
+      "href": "/?",
+      "tabs": []
+    },
+    {
+      "class": "header__navigation_men",
+      "content": "men",
+      "id": "header__navigation_men",
+      "href": "/?c=product&a=product",
+      "tabs": [
+        {
+          "name": "Jeans",
+          "href": "#"
+        },
+        {
+          "name": "Hoodies",
+          "href": "#"
+        },
+        {
+          "name": "Polos",
+          "href": "#"
+        },
+        {
+          "name": "Sweatshirts",
+          "href": "#"
+        },
+        {
+          "name": "Sweaters",
+          "href": "#"
+        },
+        {
+          "name": "Shirts",
+          "href": "#"
+        },
+        {
+          "name": "Jackets/Coats",
+          "href": "#"
+        },
+        {
+          "name": "Pants",
+          "href": "#"
+        },
+        {
+          "name": "Denim",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "class": "header__navigation_women",
+      "content": "women",
+      "id": "header__navigation_women",
+      "href": "/?c=product&a=product",
+      "tabs": [
+        {
+          "name": "Skirts/Shorts",
+          "href": "#"
+        },
+        {
+          "name": "Dresses",
+          "href": "#"
+        },
+        {
+          "name": "Tops",
+          "href": "#"
+        },
+        {
+          "name": "Leggings/Pants",
+          "href": "#"
+        },
+        {
+          "name": "Denim",
+          "href": "#"
+        },
+        {
+          "name": "Blazers",
+          "href": "#"
+        },
+        {
+          "name": "Jackets/Coats",
+          "href": "#"
+        },
+        {
+          "name": "Sweaters/Knits",
+          "href": "#"
+        },
+        {
+          "name": "Accessories",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "class": "header__navigation_kids",
+      "content": "kids",
+      "id": "header__navigation_kids",
+      "href": "/?c=product&a=product",
+      "tabs": [
+        {
+          "object": "Boys",
+          "tabs": [
+            {
+              "name": "Jeans",
+              "href": "#"
+            },
+            {
+              "name": "Shirts/Polos",
+              "href": "#"
+            },
+            {
+              "name": "Pants",
+              "href": "#"
+            },
+            {
+              "name": "Sweaters/Hoodies",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "object": "Girls",
+          "tabs": [
+            {
+              "name": "Dresses",
+              "href": "#"
+            },
+            {
+              "name": "Shirts/Skirts",
+              "href": "#"
+            },
+            {
+              "name": "Leggins/Pants",
+              "href": "#"
+            },
+            {
+              "name": "Accessories",
+              "href": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "header__navigation_accessories",
+      "content": "accessories",
+      "id": "header__navigation_accessories",
+      "href": "/?c=product&a=product",
+      "tabs": [
+        {
+          "name": "Bijouterie",
+          "href": "#"
+        },
+        {
+          "name": "Jewels",
+          "href": "#"
+        },
+        {
+          "name": "Handbags",
+          "href": "#"
+        },
+        {
+          "name": "Wallets",
+          "href": "#"
+        },
+        {
+          "name": "Gloves",
+          "href": "#"
+        },
+        {
+          "name": "Scarves/Shawls",
+          "href": "#"
+        },
+        {
+          "name": "Ties",
+          "href": "#"
+        },
+        {
+          "name": "Umbrellas",
+          "href": "#"
+        },
+        {
+          "name": "Special offers",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "class": "header__navigation_featured",
+      "content": "featured",
+      "id": "header__navigation_featured",
+      "href": "/?c=product&a=product",
+      "tabs": []
+    },
+    {
+      "class": "header__navigation_hotdeals",
+      "content": "hot deals",
+      "id": "header__navigation_hotdeals",
+      "href": "/?c=product&a=product",
+      "tabs": [
+        {
+          "object": "Men",
+          "tabs": [
+            {
+              "name": "Man's stuff",
+              "href": "#"
+            },
+            {
+              "name": "Sports wear",
+              "href": "#"
+            },
+            {
+              "name":"Brand things",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "object": "Women",
+          "tabs": [
+            {
+              "name": "Brand accessories",
+              "href": "#"
+            },
+            {
+              "name": "Dresses",
+              "href": "#"
+            },
+            {
+              "name": "Special sale",
+              "href": "#"
+            },
+            {
+              "name": "image",
+              "href": "#",
+              "alt": "Sale!",
+              "src": "./img/submenu_img.jpg"
+            }
+        ]
+        }
+      ]
+    }
+  ]
+}

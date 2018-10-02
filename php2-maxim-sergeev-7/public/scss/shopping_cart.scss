@@ -1,0 +1,287 @@
+/***********************************shopping_cart**********************************/
+.shopping_cart_form {
+  padding: 90px 233px 0 230px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 330px 170px 170px 170px 170px 170px;
+  grid-template-rows: 19px 162px 162px;
+  //grid-gap: 0 20px;
+}
+
+.shopping_cart_form h2 {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.cart_buy {
+
+}
+
+.product_details {
+  padding: 22px 0 0 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px;
+}
+
+.product_details img {
+  width: 100px;
+  height: 115px;
+
+}
+
+.product_details_text {
+  padding: 13px 0 0 21px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.product_details_text h2 {
+  color: #222222;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.product_details_text p {
+  color: #575757;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.product_details_color_size {
+  color: #6f6e6e;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: left;
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px;
+}
+
+.unite_price,
+.quantity,
+.shipping,
+.subtotal,
+.action {
+  color: #656565;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 162px;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px;
+}
+
+.quantity input {
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 54px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  outline: none;
+}
+
+.fa-times-circle {
+  color: #c0c0c0;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.continue_shopping {
+  margin: 0 0 0 610px;
+}
+
+.buy_reset,
+.continue_shopping {
+  width: 235px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buy_reset:hover,
+.continue_shopping:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  outline: none;
+}
+
+.shipping_cart_slider2 {
+  display: flex;
+  padding: 63px 230px 79px 230px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+.shipping_address h2 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+.shipping_address input {
+  width: 355px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  padding: 0 19px 0 19px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.get_a_quote {
+  width: 188px;
+  height: 35px;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.get_a_quote:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  outline: none;
+}
+
+.coupon_discount {
+  padding: 0 53px 0 53px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.coupon_discount h2 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.coupon_discount label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 28px 0 24px 0;
+  display: block;
+}
+
+.coupon_discount input {
+  width: 355px;
+  height: 45px;
+  padding: 0 19px 0 19px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  color: #b1b1b1;
+  font-size: 13px;
+  font-weight: 300;
+  text-align: left;
+  outline: none;
+}
+
+.apply_coupon {
+  width: 206px;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 35px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.apply_coupon:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  outline: none;
+}
+
+.grand_total {
+  width: 360px;
+  height: 214px;
+  background-color: #f5f3f3;
+  padding: 40px 41px 0 44px;
+}
+
+.grand_total h3 {
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.grand_total h2 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: right;
+  margin: 14px 0 22px 0;
+}
+
+.grand_total span {
+  color: #f16d7f;
+}
+
+.grand_total_border {
+  border-top: 1px solid #e2e2e2;
+  margin-bottom: 17px;
+}
+
+.grand_total button {
+  width: 273px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #ffffff;
+  text-transform: uppercase;
+
+}
+
+.grand_total button:hover {
+  background-color: #f16d7f;
+  color: #ffffff;
+  outline: none;
+}
